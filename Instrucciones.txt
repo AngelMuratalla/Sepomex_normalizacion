@@ -1,0 +1,40 @@
+# # # La presente documentación servira como instrucciones basicas del archivo # # #
+
+El archivo bd_sepomex.sql contiene el resultado del proceso de llenado y es la base de datos en respuesta a la solicitud
+
+
+
+
+INDICE:
+
+♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣
+
+Archivos en directorio Proceso_llenado:
+	Este directorio sera en el cual se puede llevar a cabo todo el proceso para crear la BD
+
+	♣ El archivo run.sql correra ordenadamente los documentos del directorio Codigos
+
+	♦ Codigos 
+		♣ El archivo Cpdescarga.txt es la correcion del archivo csv a utf8
+
+		♣ El archivo sepomex_mega.sql crea y carga una base de datos con todos los datos del csv en una sola tabla 
+	
+		♣ El archivo sepomex.sql sera la base de datos implementada por el equipo
+
+		♣ El archivo llenar.sql se encarga de cargar los datos de la base de datos a sepomex_mega a sepomex
+
+		♣ El archivo dumpfile_sepomex.sql es un respaldo de la base de datos resultado, 
+			ya que la carga la informacion puede tomar bastante tiempo
+
+	
+♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣♣
+
+♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠
+
+Archivos en directorio Documentacion:
+
+	♠ Descrip_variables es un pdf que nos explica las variables de la tabla madre
+
+	♠ Se incluyen los diagramas usados para la implementacion de la base de datos+
+
+♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠♠
